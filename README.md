@@ -1,9 +1,11 @@
 # arvato-financial-data
-1. Customer Segmentation Report
-This section will be similar to the corresponding project in Term 1 of the program, but the datasets now include more features that you can potentially use. You'll begin the project by using unsupervised learning methods to analyze attributes of established customers and the general population in order to create customer segments.
-
-2. Supervised Learning Model
-You'll have access to a third dataset with attributes from targets of a mail order campaign. You'll use the previous analysis to build a machine learning model that predicts whether or not each individual will respond to the campaign.
-
-3. Kaggle Competition
-Once you've chosen a model, you'll use it to make predictions on the campaign data as part of a Kaggle Competition. You'll rank the individuals by how likely they are to convert to being a customer, and see how your modeling skills measure up against your fellow students.
+This is the report for Udacity Machine Learning Engineer Capstone Projects. We got our data from AZ
+Direct GMBH. The end goal is to help them identify new customers for a mail-order company based on
+existing customer data and whole population of the Germany. The idea is to train an unsupervised
+learning model to identify the similarity and difference between the general population and the mail-in
+company’s customers based on geographical features provided. And then build a supervised learning
+model to identify potential new customers with the training data.
+For this project I used Principle Component Analysis for feature deduction, KMeans for clustering and
+Xgboost for classification. I will talk about the details about Preprocessing and EDA, model selection and
+training, hyperparameter tuning in the following part.
+Keywords: Customer Segmentation, PCA, KMeans, Unsupervised Learning
